@@ -1,0 +1,12 @@
+<?php 
+return 
+[
+    "database"=>
+    [
+        "host"=>"localhost",
+        "user"=>"milan",
+        "password"=>"car",
+        "dbname"=>"car_rental"
+    ]
+];
+?>
