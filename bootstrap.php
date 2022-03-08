@@ -8,13 +8,15 @@ require "Class/Connection.php";
 require "Class/User.php";
 require "Class/Posts.php";
 require "Models/BaseModel.php";
-require "Models/CarsModel.php";
+require "Models/Bmw.php";
+require "Models/Citroen.php";
+
 
 $db = Connection::con($configuration);
 $register = new User($db);
 $post = new Posts($db);
-$post_cars_bmw = new CarsBmw($db);
-$post_cars_citroen = new CarsCitroen($db);
+$post_cars_bmw = new Bmw($db);
+$post_cars_citroen = new Citroen($db);
 
 
 
